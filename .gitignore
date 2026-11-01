@@ -1,0 +1,18 @@
+# Archivos de variables de entorno con secretos
+.env
+.env.local
+.env.*.local
+
+# Entornos virtuales y caché de Python
+backend/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caché de compilación de Fresh / Deno
+frontend/_fresh/
+
+# Volúmenes y archivos temporales del sistema
+.DS_Store
+Thumbs.db

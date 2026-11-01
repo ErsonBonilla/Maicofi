@@ -1,0 +1,24 @@
+# Secretos y variables de entorno (se inyectan en runtime, nunca en la imagen)
+.env
+.env.*
+!.env.example
+
+# Control de versiones
+.git
+.gitignore
+
+# Entornos virtuales y cachés de Python
+backend/.venv/
+venv/
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+.pytest_cache/
+
+# Caché de compilación de Fresh / Deno
+frontend/_fresh/
+
+# Archivos del sistema y documentación local
+.DS_Store
+Thumbs.db
+*.md
